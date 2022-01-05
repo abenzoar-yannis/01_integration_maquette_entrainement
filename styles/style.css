@@ -9,3 +9,14 @@ body {
     min-height: 100vh;
     width: 100%;
 }
+
+.flex_cent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.flex_col_bet {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
