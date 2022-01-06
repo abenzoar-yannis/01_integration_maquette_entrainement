@@ -68,7 +68,6 @@ header > div:nth-child(2) > img {
     height: 100vh;
 }
 
-
 main {
     height: 120vh;
     width: 100%;
@@ -81,10 +80,10 @@ main > section:nth-child(1) {
 main > section:nth-child(1) > div:nth-child(1) {
     height: 100%;
     width: 36%;
+    overflow: hidden;
 }
 main > section:nth-child(1) > div:nth-child(1) > img {
     height: 100%;
-    width: 100%;
 }
 main > section:nth-child(1) > div:nth-child(2) {
     height: 100%;
@@ -125,7 +124,6 @@ main > section:nth-child(2) > div:nth-child(1) > div > h2 {
     font-size: 2.5rem;
 }
 
-
 main > section:nth-child(3) {
     height: 90vh;
     width: 100%;
@@ -142,7 +140,6 @@ main > section:nth-child(3) > form > div:nth-child(2) {
     width: 100%;
     display: flex;
     justify-content: space-between;
-
 }
 main > section:nth-child(3) > form > div:nth-child(2) > div {
     width: 49%;
@@ -156,7 +153,6 @@ main > section:nth-child(3) > form > div:nth-child(2) > div > input {
 main > section:nth-child(3) > form > div:nth-child(3) {
     height: 50%;
     width: 100%;
-
 }
 main > section:nth-child(3) > form > div:nth-child(3) > input {
     height: 80%;
