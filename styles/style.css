@@ -5,6 +5,9 @@
     text-decoration: none;
     list-style-type: none;
     font: normal normal 20px/1.6em sans-serif;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 100;
 }
 body {
     min-height: 100vh;
@@ -58,4 +61,85 @@ header > div:nth-child(2) {
 }
 header > div:nth-child(2) > img {
     height: 100vh;
+}
+
+
+main {
+    height: 120vh;
+    width: 100%;
+}
+main > section:nth-child(1) {
+    display: flex;
+    height: 50%;
+    width: 100%;
+}
+main > section:nth-child(1) > div:nth-child(1) {
+    height: 100%;
+    width: 36%;
+}
+main > section:nth-child(1) > div:nth-child(1) > img {
+    height: 100%;
+    width: 100%;
+}
+main > section:nth-child(1) > div:nth-child(2) {
+    height: 100%;
+    width: 64%;
+}
+main > section:nth-child(1) > div:nth-child(2) > div {
+    height: 60%;
+    width: 85%;
+}
+main > section:nth-child(1) > div:nth-child(2) > div > h2 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+main > section:nth-child(1) > div:nth-child(2) > div > button {
+    height: 2rem;
+    width: 160px;
+    background: white;
+    border: solid 1px grey;
+    border-radius: 1rem;
+}
+main > section:nth-child(1) > div:nth-child(2) > div > button > a {
+    font-size: 0.6rem;
+    font-weight: bold;
+}
+
+main > section:nth-child(2) {
+    display: flex;
+    height: 50%;
+    width: 100%;
+}
+main > section:nth-child(2) > div:nth-child(2) {
+    height: 100%;
+    width: 36%;
+    overflow: hidden;
+}
+main > section:nth-child(2) > div:nth-child(2) > img {
+    position: relative;
+    bottom: 50%;
+    width: 100%;
+}
+main > section:nth-child(2) > div:nth-child(1) {
+    height: 100%;
+    width: 64%;
+}
+main > section:nth-child(2) > div:nth-child(1) > div {
+    height: 60%;
+    width: 85%;
+}
+main > section:nth-child(2) > div:nth-child(1) > div > h2 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+main > section:nth-child(2) > div:nth-child(1) > div > button {
+    height: 2rem;
+    width: 160px;
+    background: white;
+    border: solid 1px grey;
+    border-radius: 1rem;
+}
+main > section:nth-child(2) > div:nth-child(1) > div > button > a {
+    font-size: 0.6rem;
+    font-weight: bold;
 }
