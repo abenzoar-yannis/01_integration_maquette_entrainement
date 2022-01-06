@@ -24,6 +24,12 @@ body {
     flex-direction: column;
     justify-content: space-between;
 }
+.flex_col_bet_cent {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
 
 .button {
     height: 2.5rem;
@@ -125,10 +131,6 @@ main > section:nth-child(3) {
     width: 100%;
 }
 main > section:nth-child(3) > form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
     height: 80%;
     width: 45%;
 }
@@ -144,10 +146,6 @@ main > section:nth-child(3) > form > div:nth-child(2) {
 }
 main > section:nth-child(3) > form > div:nth-child(2) > div {
     width: 49%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
 }
 main > section:nth-child(3) > form > div:nth-child(2) > div > input {
     height: 2.5rem;
@@ -156,10 +154,6 @@ main > section:nth-child(3) > form > div:nth-child(2) > div > input {
     border-radius: 0.3rem;
 }
 main > section:nth-child(3) > form > div:nth-child(3) {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
     height: 50%;
     width: 100%;
 
