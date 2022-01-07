@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
     <link rel="stylesheet" href="styles/style.css">
     <title>Integration Run</title>
 </head>
@@ -13,7 +14,7 @@
             <div class="flex_col_bet">
                 <h1>Run</h1>
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error recusandae corrupti praesentium quas consequatur iste molestiae similique vero non sapiente?</p>
-                <a href="" class="button flex_cent">GET STARTED</a>
+                <a href="#" class="button flex_cent">GET STARTED</a>
             </div>
         </div>
         <div>
@@ -29,7 +30,7 @@
                 <div class="flex_col_bet">
                     <h2>Magna etiam feugiat</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error mollitia ex dolore odit a dolores itaque nisi consequatur assumenda ipsa quam quaerat incidunt obcaecati numquam soluta cumque, neque placeat exercitationem.</p>
-                    <a href="" class="button flex_cent">LEARN MORE</a>
+                    <a href="#" class="button flex_cent">LEARN MORE</a>
                 </div>
             </div>
         </section>
@@ -38,36 +39,62 @@
                 <div class="flex_col_bet">
                     <h2>Tempus adipiscing</h2>
                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quaerat aliquid temporibus quidem deserunt! Sequi quis, enim ad velit doloribus dolores, porro quae perferendis maiores a animi! Tenetur ab delectus dicta.</p>
-                    <a href="" class="button flex_cent">LEARN MORE</a>
+                    <a href="#" class="button flex_cent">LEARN MORE</a>
                 </div>
             </div>
             <div>
                 <img src="images/img-right.jpg" alt="">
             </div>
         </section>
-        <section class="flex_cent">
-            <form class="flex_col_bet_cent" action="">
-                <h2>Get in touch</h2>
+        <section>
+            <h2>Get in touch</h2>
+            <form class="flex_col_bet_cent" action="#">
                 <div>
                     <div class="flex_col_bet_cent">
                         <label for="name">Name</label>
-                        <input type="text" name="name">
+                        <input type="text" id="name">
                     </div>
                     <div class="flex_col_bet_cent">
                         <label for="email">Email</label>
-                        <input type="email" name="email">                       
+                        <input type="email" id="email">                       
                     </div>
                 </div>
                 <div class="flex_col_bet_cent">
                     <label for="message">Message</label>
-                    <input type="text" name="message">     
+                    <textarea id="message"></textarea>
                 </div>
-                <button type="submit" class="button flex_cent">SEND MESSAGE</button>
+                <input type="submit" class="button flex_cent" value="SEND MESSAGE">
             </form>
         </section>
     </main>
     <footer>
-
+        <ul>
+            <li>
+                <a href="#">
+                    <i class="fab fa-twitter"></i>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="fab fa-instagram"></i>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="far fa-envelope"></i>
+                </a>
+            </li>
+        </ul>
     </footer>
 </body>
 </html>
